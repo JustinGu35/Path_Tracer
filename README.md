@@ -14,23 +14,23 @@ University of Pennsylvania, CIS 561: Advanced Computer Graphics, Course Project
 # Images:
 ## Multiple Importance Sampling
 direct light sampling
-![](Renders/veachScene_Runshi_NOMIS)
+![](Renders/veachScene_Runshi_NOMIS.png)
 BSDF sampling
-![](Renders/veachScene_Runshi_Naive)
+![](Renders/veachScene_Runshi_Naive.png)
 Multiple Importance Sampling: Power heuristic and Balanced heuristic
-![](Renders/veachScene_Runshi_Power)
-![](Renders/veachScene_Runshi_Balanced)
+![](Renders/veachScene_Runshi_Power.png)
+![](Renders/veachScene_Runshi_Balanced.png)
 
 ## Global Illumination
 Rough Box
-![](Renders/roughboxFull)
+![](Renders/roughboxFull.png)
 Glass Ball
-![](Renders/glassballFull)
+![](Renders/glassballFull.png)
 Mirror Balls
-![](Renders/mirrorBalls)
+![](Renders/mirrorBalls.png)
 Candied Haws
-![](Renders/chainsBall)
+![](Renders/chainsBall.png)
 Glassy Suzanne
-![](Renders/glassSuzanne)
+![](Renders/glassSuzanne.png)
 Thin Lens Camera
-![](Renders/thinLensCamera)
+![](Renders/thinLensCamera.png)
