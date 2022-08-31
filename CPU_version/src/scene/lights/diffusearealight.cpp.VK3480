@@ -1,0 +1,23 @@
+#include "diffusearealight.h"
+
+Color3f DiffuseAreaLight::L(const Intersection &isect, const Vector3f &w) const
+{
+    //TODO
+    //return Color3f(0.f);
+    //DELETEME
+    return (twoSided || glm::dot(isect.normalGeometric, w) > 0) ? emittedLight : Color3f(0.f);
+}
+
+Color3f DiffuseAreaLight::Sample_Li(const Intersection &ref, const Point2f &xi,
+                                     Vector3f *wi, Float *pdf) const
+{
+    Intersection pShape = shape->Sample(ref, xi, pdf);
+    if (*pdf == 0 || glm::length2(pShape.point - ref.point) == 0) {
+        *pdf = 0;
+        return 0.f;
+    }
+    *wi = glm::normalize(pShape.point - ref.point);
+//    *vis = VisibilityTester(ref, pShape);
+
+    return L(pShape, -*wi);
+}

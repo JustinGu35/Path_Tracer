@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>styles/darkorange.stylesheet</file>
+        <file>styles/rainbow.stylesheet</file>
+        <file>styles/plain.stylesheet</file>
+    </qresource>
+</RCC>

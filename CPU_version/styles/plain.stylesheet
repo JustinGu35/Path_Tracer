@@ -1,0 +1,15 @@
+.QWidget {
+    background-color: rgb(48, 56, 62);
+}
+
+
+QLabel, QCheckBox, QRadioButton, QGroupBox
+{
+    color: white;
+}
+
+QComboBox, QSpinBox
+{
+    color: white;
+    background-color: rgb(48, 56, 62);
+}
